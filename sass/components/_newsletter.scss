@@ -1,0 +1,43 @@
+.newsletter__button {
+  width: 200px;
+  height: 50px;
+  align-self: center;
+
+  background-color: rgba(33, 150, 243, 1);
+
+  border: none;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 1);
+  font-family: var(--main-font);
+  font-weight: 700px;
+  line-height: 1.875;
+
+  transition: 250ms var(--timig-fn);
+  cursor: pointer;
+}
+.newsletter__input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+  padding: 15px 16px;
+  margin-right: 12px;
+  background-color: #2f303a;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.newsletter__icon {
+  width: 24px;
+  height: 24px;
+
+  margin-left: 24px;
+}
+.newsletter__form {
+  margin-bottom: 60px;
+  margin-left: 25px;
+} /*---------*/

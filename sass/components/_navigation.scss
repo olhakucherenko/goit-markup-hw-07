@@ -1,0 +1,29 @@
+.navigation__list .span {
+  color: var(--main-color);
+}
+.navigation .logo {
+  margin-top: 25px;
+  margin-bottom: 24px;
+  margin-right: 93px;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+}
+/*li*/
+.navigation__item:not(:last-child) {
+  margin-right: 46px;
+}
+.navigation__item h3 {
+  margin-bottom: 10px;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 30px;
+}
+.navigation__list .current__page {
+  display: flex;
+  justify-content: flex-end;
+}
+.navigation__item {
+  position: relative;
+}

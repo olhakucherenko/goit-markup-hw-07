@@ -1,0 +1,211 @@
+.logo,
+.addresses.logo {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.span {
+  color: #212121;
+}
+.span-span {
+  color: #ffffff;
+}
+.header .addresses {
+  color: var(--main-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/*--------------------------------ADDRESSES----------------------*/
+.header .container {
+  border-bottom: 1px solid #ececec;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.top__header {
+  margin-bottom: 94px;
+}
+.header .navigation {
+  display: flex;
+}
+
+/*.header .addresses {
+  color: var(--main-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contact__link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  text-decoration: none;
+}*/
+.header .addresses {
+  color: var(--main-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contact__link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--main-color);
+    transition: color 250ms var(--timig-fn);
+  }
+}
+
+.addresses {
+  margin-left: auto;
+}
+.address__email {
+  margin-right: 50px;
+}
+.navigation__list,
+.address__email,
+.address__phone {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    fill: var(--main-color);
+    cursor: pointer;
+    transition: color 250ms var(--timig-fn);
+  }
+}
+/*.address__email:hover,
+.address__email:focus,
+.address__phone:hover,
+.address__phone:focus {
+  fill: var(--main-color);
+  cursor: pointer;
+  transition: color 250ms var(--timig-fn);
+}*/
+.logo,
+.addresses.logo {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+/*----------------------*/
+
+.addresses__list {
+  font-style: normal;
+  margin-top: 20px;
+}
+.about__item {
+  position: relative;
+}
+.address__item {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.address__item:not(:first-child) {
+  padding-top: 9px;
+}
+
+.address__contact {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms var(--timig-fn);
+  &:hover,
+  &:active {
+    color: var(--main-color);
+  }
+}
+/*.address__contact:hover,
+.address__contact:active {
+  color: var(--main-color);
+}*/
+.address__contact,
+.address__contact,
+.main-logo {
+  text-decoration: none;
+}
+
+/*.logo:hover,
+.logo:focus,
+.contact__link:hover,
+.contact__link:focus,
+.address__email:hover,
+.address__email:focus,
+.address__phone:hover,
+.address__phone:focus {
+  color: var(--main-color);
+  transition: color 250ms var(--timig-fn);
+}
+
+/*.contact__link:hover,
+.contact__link:focus,
+.address__email:hover,
+.address__email:focus,
+.address__phone:hover,
+.address__phone:focus {
+  color: var(--main-color);
+  transition: color 250ms var(--timig-fn);
+}*/
+.addresses,
+.address__email,
+.address__phone {
+  font-size: var(--main-font);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
+    color: var(--main-color);
+    transition: color 250ms var(--timig-fn);
+  }
+}
+.current__page::after {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  content: "";
+  background: var(--main-color);
+  height: 4px;
+  width: 100%;
+  margin-top: 45px;
+  border-radius: 2px;
+}
+
+.navigation__list,
+.address__email,
+.address__phone {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}

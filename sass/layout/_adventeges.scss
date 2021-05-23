@@ -1,0 +1,44 @@
+.advantage__header {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  /* #212121;*/
+}
+.advantage__description {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+
+  /* #757575;*/
+}
+
+.advantage__list {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.advantage__list {
+  margin-bottom: 94px;
+}
+
+.advantage__icon {
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px;
+}
+.advantage__icon-wrapper {
+  width: 270px;
+  height: 120;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
