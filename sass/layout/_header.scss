@@ -124,11 +124,14 @@
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #fff;
+  & :not(:first-child) {
+    padding-top: 9px;
+  }
 }
 
-.address__item:not(:first-child) {
+/*.address__item:not(:first-child) {
   padding-top: 9px;
-}
+}*/
 
 .address__contact {
   font-size: 14px;

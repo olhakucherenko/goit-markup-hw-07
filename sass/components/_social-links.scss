@@ -9,9 +9,9 @@
   height: 20px;
   fill: #afb1b8;
 }
-.social-icon__link:not(:last-child) {
+/*.social-icon__link:not(:last-child) {
   margin-right: 10px;
-}
+}*/
 /*.social-icon__link:hover,
 .social-icon__link:focus {
   background-color: var(--main-color);
@@ -26,6 +26,9 @@
   transition: background-color 250ms var(--timig-fn);
   &:hover,
   &:focus {
-    background-color: var(--main-color);
+    background-color: var(--main-color);}
+    & :not(:last-child) {
+      margin-right: 10px;
+    }
   }
 }

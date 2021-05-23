@@ -17,6 +17,9 @@
 .clients__icon:focus {
   fill: var(--main-color);
   border-color: var(--main-color);
+  & :not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .clients__icon {
   width: 106px;
@@ -25,9 +28,9 @@
   margin: 32px;
 }
 
-.clients__item:not(:last-child) {
+/*.clients__item:not(:last-child) {
   margin-right: 30px;
-}
+}*/
 .clients__item {
   display: flex;
   align-items: center;

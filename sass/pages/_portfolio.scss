@@ -87,6 +87,11 @@
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  & :hover,
+  & :focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 .portfolio__cards {
   display: flex;
@@ -142,11 +147,11 @@
 .cards__wrapper:hover .cards__description {
   transform: translatex(0);
 }
-.cards__item:hover,
+/*.cards__item:hover,
 .cards__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+}*/
 .cards__firs-row {
   display: flex;
   justify-content: space-between;
