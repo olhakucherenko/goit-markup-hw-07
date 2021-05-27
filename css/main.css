@@ -441,6 +441,7 @@ body {
 }
 
 .hero .container {
+  max-width: 1600px;
   background-image: linear-gradient(
       to bottom,
       rgba(47, 48, 58, 0),
@@ -454,6 +455,7 @@ body {
   /*=========*/
   left: 0;
   width: 100%;
+  margin-bottom: 94px;
 }
 
 .hero__tittle {
@@ -463,10 +465,6 @@ body {
   font-size: 44px;
   line-height: 1, 363;
   letter-spacing: 0.06em;
-}
-
-.hero {
-  margin-bottom: 94px;
 }
 
 .hero__button {
